@@ -36,7 +36,7 @@
 - `real_estate_analysis.sql` — SQL-запросы для обеих задач
 
 ## Дашборд DataLens
-[(https://datalens.yandex/if82016owwvw2)]
+https://datalens.yandex/if82016owwvw2
 
 ## Автор
 Зарипова Альмира  
