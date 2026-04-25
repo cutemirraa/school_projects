@@ -22,7 +22,7 @@
 ---
 
 ## About
-This repository contains my data analysis and machine learning projects created for educational and portfolio purposes.
+This repository contains my data analysis projects created for educational and portfolio purposes.
 
 ## Author
 Zaripova Almira
