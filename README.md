@@ -19,6 +19,11 @@
 - **Key tools:** SQL
 - [View project](./donor_analysis/README.md)
 
+### 4. Video Games Data Preprocessing
+- **Folder:** `video_games_preprocessing`
+- **Description:** Preprocessing and cleaning of historical video game sales data (2000–2013), handling missing values, duplicates, and data type conversion
+- **Key tools:** Python, pandas
+- [View project](./video_games_preprocessing/README.md)
 ---
 
 ## About
