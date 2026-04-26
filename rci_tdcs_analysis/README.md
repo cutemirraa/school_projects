@@ -1,4 +1,4 @@
-# tDCS for Allergic Rhinitis: Statistical Analysis
+# tDCS for Allergic Rhinitis: Statistical Analysis 
 
 ## Project Description
 This project presents a complete statistical analysis of a fictional Randomized Clinical Trial (RCT) evaluating the efficacy of transcranial direct current stimulation (tDCS) for the treatment of allergic rhinitis. The dataset was synthetically generated for portfolio purposes only.
