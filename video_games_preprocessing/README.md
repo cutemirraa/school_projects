@@ -1,66 +1,69 @@
-# Video Games Data Preprocessing (2000–2013)
+# Предобработка исторических данных о продажах видеоигр (2000–2013)
 
-## Project Description
-Preprocessing and cleaning of historical video game sales data for further analysis. The goal is to prepare data for an article on IT resource about the evolution of the gaming industry.
+## Описание проекта
+Предобработка и очистка исторических данных о продажах видеоигр для последующего анализа. Цель — подготовить данные для статьи на IT-ресурсе об эволюции игровой индустрии.
 
-## Data
-- Source: `new_games.csv`
-- Period: originally 1980–2016, filtered to 2000–2013
-- Rows after preprocessing: 12,780
+## Данные
+- Источник: `new_games.csv`
+- Исходный период: 1980–2016
+- После фильтрации: 2000–2013
+- Количество строк после предобработки: 12 780
 
-## Steps Performed
+## Этапы работы
 
-### 1. Data Loading & Overview
-- Checked structure, data types, missing values
-- Initial shape: 16,956 rows × 11 columns
+### 1. Загрузка и первичный осмотр
+- Проверена структура данных, типы столбцов, наличие пропусков
+- Исходный размер: 16 956 строк × 11 столбцов
 
-### 2. Data Preprocessing
-- Converted column names to `snake_case`
-- Fixed data types (`year_of_release` → numeric, `eu_sales`, `jp_sales`, `user_score` → float)
-- Replaced `"unknown"` and `"tbd"` with `NaN`
-- Filled missing values in sales columns with mean by platform + year
-- Normalized text columns (`genre`, `platform` → lowercase; `rating` → uppercase)
-- Removed duplicates (242 rows)
-- Removed rows with missing `name` or `genre` (2 rows)
+### 2. Предобработка данных
+- Названия столбцов приведены к стилю `snake_case`
+- Исправлены типы данных (`year_of_release` → числовой, `eu_sales`, `jp_sales`, `user_score` → число с плавающей точкой)
+- Значения `"unknown"` и `"tbd"` заменены на `NaN`
+- Пропуски в столбцах продаж заполнены средними значениями по платформе и году выпуска
+- Текстовые столбцы нормализованы (`genre`, `platform` → нижний регистр, `rating` → верхний)
+- Удалены дубликаты (242 строки)
+- Удалены строки с пропусками в `name` и `genre` (2 строки)
 
-### 3. Filtering
-- Kept only games released between 2000 and 2013
-- Final rows: **12,780**
+### 3. Фильтрация по периоду
+- Оставлены только игры, выпущенные с 2000 по 2013 год включительно
+- Финальное количество строк: **12 780**
 
-### 4. Categorization
-Created two new categorical columns based on scores:
+### 4. Категоризация оценок
+Созданы два новых категориальных столбца на основе оценок:
 
-| Category | Critic Score | User Score |
-|----------|--------------|------------|
-| high | >= 80 | >= 8 |
-| medium | 30–79 | 3–7.9 |
-| low | 0–29 | 0–2.9 |
-| no score | missing | missing |
+| Категория | Оценка критиков | Оценка пользователей |
+|-----------|----------------|---------------------|
+| высокая | >= 80 | >= 8 |
+| средняя | 30–79 | 3–7.9 |
+| низкая | 0–29 | 0–2.9 |
+| нет оценки | пропуск | пропуск |
 
-**Distribution:**
+**Распределение по категориям:**
 
-| Category | critic_category | user_category |
-|----------|----------------|---------------|
-| no score | 5,612 | 6,298 |
-| high | 1,691 | 2,286 |
-| medium | 5,422 | 4,080 |
-| low | 55 | 116 |
+| Категория | critic_category | user_category |
+|-----------|----------------|---------------|
+| нет оценки | 5 612 | 6 298 |
+| высокая | 1 691 | 2 286 |
+| средняя | 5 422 | 4 080 |
+| низкая | 55 | 116 |
 
-### 5. Top Platforms (2000–2013)
+### 5. Топ-7 платформ (2000–2013)
 
-| Platform | Game Count |
-|----------|------------|
-| PS2 | 2,127 |
-| DS | 2,120 |
-| Wii | 1,275 |
-| PSP | 1,180 |
-| X360 | 1,121 |
-| PS3 | 1,086 |
+| Платформа | Количество игр |
+|-----------|----------------|
+| PS2 | 2 127 |
+| DS | 2 120 |
+| Wii | 1 275 |
+| PSP | 1 180 |
+| X360 | 1 121 |
+| PS3 | 1 086 |
 | GBA | 811 |
 
-## Files
-- `video_games_preprocessing.ipynb` — Jupyter notebook with all code
+## Файлы проекта
+- `video_games_preprocessing.ipynb` — Jupyter Notebook с полным кодом
 
-## Author
-Zaripova Almira  
-Date: April 2026
+## Автор
+Зарипова Альмира
+
+## Дата
+Апрель 2026
