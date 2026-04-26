@@ -41,4 +41,3 @@ This repository contains my data analysis projects created for educational and p
 
 ## Author
 Zaripova Almira
-Zaripova Almira
