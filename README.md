@@ -24,6 +24,13 @@
 - **Description:** Preprocessing and cleaning of historical video game sales data (2000–2013), handling missing values, duplicates, and data type conversion
 - **Key tools:** Python, pandas
 - [View project](./video_games_preprocessing/README.md)
+
+### 5. Moscow Catering Market Analysis
+- **Folder:** `moscow_catering_analysis`
+- **Description:** Exploratory data analysis of Moscow's public catering market (summer 2022) — identifying promising locations and formats
+- **Key tools:** Python, pandas, seaborn, matplotlib, phik
+- [View project](./moscow_catering_analysis/README.md)
+
 ---
 
 ## About
