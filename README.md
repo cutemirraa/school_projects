@@ -20,15 +20,21 @@
 - **Key tools:** Python, pandas, seaborn, matplotlib, phik
 - [View project](./moscow_catering_analysis/README.md)
 
+### 4. Venture Capital Funding Analysis (Startups 2000–2014)
+- **Folder:** `startup_venture_funding_analysis`
+- **Description:** Exploratory data analysis of venture capital investments in startups (2000–2014). Investigation of funding structure, market segment classification (mass/mid/niche), comparison of funding types by volume and popularity, analysis of return rates dynamics, and formulation of investment strategy recommendations for 2015
+- **Key tools:** Python, pandas, matplotlib, IQR outlier detection
+- [View project](./startup_venture_funding_analysis/README.md)
+  
 ## SQL & Visualization Projects
 
-### 4. Real Estate Market Analysis (SPb & Leningrad Oblast)
+### 5. Real Estate Market Analysis (SPb & Leningrad Oblast)
 - **Folder:** `real_estate_analysis`
 - **Description:** Analysis of property listings to identify attractive segments and seasonality trends
 - **Key tools:** SQL, Yandex DataLens
 - [View project](./real_estate_analysis/README.md)
 
-### 5. Donor Activity Analysis
+### 6. Donor Activity Analysis
 - **Folder:** `donor_analysis`
 - **Description:** Analysis of donor engagement, bonus impact, social networks, and donation planning vs reality
 - **Key tools:** SQL
