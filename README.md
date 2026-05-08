@@ -24,7 +24,7 @@
 - **Folder:** `startup_venture_funding_analysis`
 - **Description:** Exploratory data analysis of venture capital investments in startups (2000–2014). Investigation of funding structure, market segment classification (mass/mid/niche), comparison of funding types by volume and popularity, analysis of return rates dynamics, and formulation of investment strategy recommendations for 2015
 - **Key tools:** Python, pandas, matplotlib, IQR outlier detection
-- [View project](./startup_venture_funding_analysis/README.md)
+- [View project](./startup_venture_funding_analysis/)
   
 ## SQL & Visualization Projects
 
