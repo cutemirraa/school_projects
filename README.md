@@ -21,10 +21,10 @@
 - [View project](./moscow_catering_analysis/README.md)
 
 ### 4. Venture Capital Funding Analysis (Startups 2000–2014)
-- **Folder:** `startup_venture_funding_analysis`
+- **Folder:** `startup-venture-funding-analysis`
 - **Description:** Exploratory data analysis of venture capital investments in startups (2000–2014). Investigation of funding structure, market segment classification (mass/mid/niche), comparison of funding types by volume and popularity, analysis of return rates dynamics, and formulation of investment strategy recommendations for 2015
 - **Key tools:** Python, pandas, matplotlib, IQR outlier detection
-- [View project](./startup_venture_funding_analysis/)
+- [View project](./startup-venture-funding-analysis/README.md)
   
 ## SQL & Visualization Projects
 
